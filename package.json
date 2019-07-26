@@ -1,0 +1,25 @@
+{
+  "name": "gittest",
+  "version": "1.0.0",
+  "description": "This is a test directory for Git and Node",
+  "main": "index.html",
+  "scripts": {
+    "start": "npm run lite",
+    "lite": " lite-server",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Aaron Lopez",
+  "license": "ISC",
+  "devDependencies": {
+    "lite-server": "^2.4.0"
+  },
+  "dependencies": {
+    "bootlint": "^0.15.1",
+    "bootstrap": "^4.1.3",
+    "bootstrap-social": "^5.1.1",
+    "font-awesome": "^4.7.0",
+    "jquery": "^3.3.1",
+    "popper": "^1.0.1",
+    "popper.js": "^1.14.4"
+  }
+}
