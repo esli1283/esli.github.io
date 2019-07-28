@@ -4,14 +4,14 @@
   "description": "This is a test directory for Git and Node",
   "main": "index.html",
   "scripts": {
-    "start": "npm run lite",
-    "lite": " lite-server",
+    "dev": "lite-server",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Aaron Lopez",
   "license": "ISC",
   "devDependencies": {
-    "lite-server": "^2.4.0"
+    "lite-server": "^2.4.0",
+    "liteserver": "^0.3.0"
   },
   "dependencies": {
     "bootlint": "^0.15.1",
