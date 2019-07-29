@@ -26,6 +26,7 @@
     "serverlite": "0.0.2"
   },
   "devDependencies": {
-    "lite-server": "^2.5.3"
+    "lite-server": "^2.5.3",
+    "server-lite": "^1.0.0"
   }
 }
