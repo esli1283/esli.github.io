@@ -18,6 +18,9 @@
   "homepage": "https://github.com/esli1283/resume#readme",
   "dependencies": {
     "bootstrap": "^4.3.1",
-    "font-awesome": "^4.7.0"
+    "font-awesome": "^4.7.0",
+    "jquery": "^3.4.1",
+    "popper": "^1.0.1",
+    "popper.js": "^1.15.0"
   }
 }
