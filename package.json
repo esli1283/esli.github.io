@@ -2,7 +2,7 @@
   "name": "esliresume",
   "version": "1.0.0",
   "description": "Resume",
-  "main": "index.js",
+  "main": "index.html",
   "scripts": {
     "start": "npm run lite",
     "lite": "lite-server",
