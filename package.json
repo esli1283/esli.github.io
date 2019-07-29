@@ -4,6 +4,8 @@
   "description": "Resume",
   "main": "index.js",
   "scripts": {
+    "start": "npm run lite",
+    "lite": "lite-server",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -15,5 +17,15 @@
   "bugs": {
     "url": "https://github.com/esli1283/resume/issues"
   },
-  "homepage": "https://github.com/esli1283/resume#readme"
+  "homepage": "https://github.com/esli1283/resume#readme",
+  "dependencies": {
+    "bootstrap": "^4.3.1",
+    "font-awesome": "^4.7.0",
+    "jquery": "^3.4.1",
+    "popper.js": "^1.15.0",
+    "serverlite": "0.0.2"
+  },
+  "devDependencies": {
+    "lite-server": "^2.5.3"
+  }
 }
