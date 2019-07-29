@@ -15,5 +15,9 @@
   "bugs": {
     "url": "https://github.com/esli1283/resume/issues"
   },
-  "homepage": "https://github.com/esli1283/resume#readme"
+  "homepage": "https://github.com/esli1283/resume#readme",
+  "dependencies": {
+    "bootstrap": "^4.3.1",
+    "font-awesome": "^4.7.0"
+  }
 }
