@@ -1,0 +1,7 @@
+{
+    "appService.zipIgnorePattern": [
+        ".vscode{,/**}"
+    ],
+    "appService.defaultWebAppToDeploy": "/subscriptions/fa354700-60c4-4f38-ab7d-6109abdfa8ef/resourceGroups/appsvc_linux_centralus/providers/Microsoft.Web/sites/AaronResume",
+    "appService.deploySubpath": ""
+}
