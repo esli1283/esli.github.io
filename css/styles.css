@@ -1,0 +1,73 @@
+.row-header {
+    margin: 0% auto;
+    padding: 80px 20px 70px 20px;
+}
+
+.row-profile {
+    margin: 0% right;
+    padding: 1%;
+}
+.row-education {
+    margin: 0% left;
+    padding: 70px 10px 10px 5px;
+    min-height: 100px;
+}
+
+.row-activities {
+    margin: 0% left;
+    min-height: 100px;
+    padding: 20px 0px 0px 0px;
+}
+
+.row-interest {
+    margin: 0% left;
+    min-height: 100px;
+    padding: 50px 0px 10px 0px;
+}
+
+.footer {
+    background-color: #D1C4E9;
+    margin: 0% auto;
+    padding: 20px 0px 20px 0px;
+}
+
+.jumbotron {
+    padding: 70px 30px 70px 30px;
+    margin: 0% left;
+    border: 1px;
+}
+
+.img-profile {
+    border-radius: 90%;
+}
+
+body{
+    z-index: 0;
+    background-color: #322c2c;
+}
+
+.nav-item {
+    padding: 5px 10px 5px 0px;
+}
+
+.form-padding {
+    margin: 0% auto;
+    padding: 10px 20px 10px 20px;
+}
+
+.navbar {
+    background-color:   #322c2c
+}
+
+.card-body {
+    background-color: #322c2c;
+    color: antiquewhite;
+}
+.card {
+    border: none;
+}
+.card-group {
+   padding: 40px 0px 0px 0px;
+   margin: 5%;
+   border-top: 2px solid;
+}
