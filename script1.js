@@ -8,8 +8,9 @@ function Job(company, start, end){
 };
 
 Job.prototype.getJobDuration = function(){
-    let jobTimeYears =  ((this.endDate.getMonth() - this.startDate.getMonth() + (12 * (this.endDate.getFullYear() - this.startDate.getFullYear())) + 1 ) / 12);
-    let jobTimeMonths = ((this.endDate.getMonth() - this.startDate.getMonth() + (12 * (this.endDate.getFullYear() - this.startDate.getFullYear())) + 1 ) % 12);
+    let jobTotalTime = (this.endDate.getMonth() - this.startDate.getMonth() + (12 * (this.endDate.getFullYear() - this.startDate.getFullYear())) + 1 )
+    let jobTimeYears = (jobTotalTime / 12);
+    let jobTimeMonths = (jobTotalTime % 12);
     let jobTime;
 
     if (Math.trunc(jobTimeYears)=== 0){
@@ -30,6 +31,7 @@ Job.prototype.getJobDuration = function(){
 };
 
 
+
 let signatureTime = new Job("Signature", new Date(2018, 10, 01), today);
 let wellsFargoTime = new Job("Wells Fargo", new Date(2016, 10 , 01), new Date(2018,10,01));
 let goNetTime = new Job("goNet", new Date(2016,01,01), new Date(2016,10,01));
@@ -37,6 +39,8 @@ let indraUSATime = new Job("Indra USA", new Date(2012,03,23), new Date(2015,11,3
 let tataTime = new Job("TCS", new Date(2011,08,01), new Date(2012,03,01));
 let accentureTime = new Job("Accenture", new Date(2009,00,01), new Date(2011,08,30));
 signatureTime.duration.push(signatureTime.getJobDuration());
+
+
 
 document.getElementById("signatureTime").innerHTML = signatureTime.getJobDuration();
 document.getElementById("wellsFargoTime").innerHTML = wellsFargoTime.getJobDuration();
