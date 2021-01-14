@@ -32,7 +32,7 @@ Job.prototype.getJobDuration = function(){
 
 
 
-let signatureTime = new Job("Signature", new Date(2018, 10, 01), new Date(2019,10,31);
+let signatureTime = new Job("Signature", new Date(2018, 10, 01), new Date(2019,10,31));
 let wellsFargoTime = new Job("Wells Fargo", new Date(2016, 10 , 01), new Date(2018,10,01));
 let goNetTime = new Job("goNet", new Date(2016,01,01), new Date(2016,10,01));
 let indraUSATime = new Job("Indra USA", new Date(2012,03,23), new Date(2015,11,31));
