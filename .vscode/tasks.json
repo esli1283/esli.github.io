@@ -1,0 +1,17 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"type": "npm",
+			"script": "blc",
+			"path": "lib/bootstrap/",
+			"problemMatcher": [],
+			"label": "npm: blc - lib/bootstrap",
+			"detail": "blc --exclude-external --filter-level 3 --follow --get --ordered --recursive --host-requests 4 --input http://localhost:3000/",
+			"group": {
+				"kind": "build",
+				"isDefault": true
+			}
+		}
+	]
+}
